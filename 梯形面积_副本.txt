@@ -10,3 +10,15 @@
             border: 1px solid #000;
             padding: 10px;
         
+
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>作业</title>
+</head>
+<style>
+    table{
+            width: 300px;
+            border: 1px solid #000;
+            padding: 10px;
