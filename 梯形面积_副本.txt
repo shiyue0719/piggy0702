@@ -9,40 +9,4 @@
             width: 300px;
             border: 1px solid #000;
             padding: 10px;
-            text-align: left;
-            
-    }
-    table,th,td{
-            border: 1px solid black;    
-    }
-</style>
-<body>
-    <h1>梯形面积</h1>
-    <table>
-        <tr>
-            <td width="120"><div align="right">上底</div></td><td><input type="text" id="top" value="1"></td>
-        </tr>
-        <tr>
-            <td><div align="right">下底</div></td><td><input type="text" id="bottom" value="1"></td>
-        </tr>
-        <tr>
-            <td><div align="right">高</div></td><td><input type="text" id="height" value="1"></td>
-        </tr>
-        <tr>
-            <td><button onclick="mianji()">面积</button></td>
-        </tr>
-        <tr>
-            <td><input type="text" id="area" value="1" disabled></td>
-        </tr>
-    </table>
-<script>
-    function mianji(){
-        let top=parseFloat(document.getElementById('top').value)
-        let bottom=parseFloat(document.getElementById('bottom').value)
-        let height=parseFloat(document.getElementById('height').value)
-        let area=(top+bottom)*height/2
-        document.getElementById('area').value=area
-    }
-   </script>
-</body>
-</html>
+        
